@@ -1,3 +1,4 @@
+---
 # Display name
 title: Alejandro Dopico
 
@@ -66,3 +67,5 @@ projects:
     description: "Your AI-powered museum guide."
     url: https://devpost.com/software/artlens
     icon: trophy
+
+---
