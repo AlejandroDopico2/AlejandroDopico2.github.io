@@ -2,21 +2,16 @@
 # Display name
 title: Alejandro Dopico
 
-# Full name (for SEO)
 first_name: Alejandro
 last_name: Dopico
 
-# Status emoji (☕️ for coffee, 💻 for coding, etc.)
 status:
   icon: ☕️
 
-# Primary user of the site
 superuser: true
 
-# Role/position
-role: PhD Researcher in Frugal AI
+role: PhD Candidate | Frugal AI Researcher
 
-# Organizations/Affiliations
 organizations:
   - name: LIDIA Group, University of A Coruña
     url: https://www.udc.es/es/lidiagroup/
@@ -24,17 +19,14 @@ organizations:
     url: https://www.aei.gob.es/
 
 education: 
-  - name: Computer Science Degree, University of A Coruña, 2019 - 2023
-  - name: Master in Artificial Intelligence, University of A Coruña, 2023 - 2025
+  - name: BSc in Computer Science, University of A Coruña (2019 - 2023)
+  - name: MSc in Artificial Intelligence, University of A Coruña (2023 - 2025)
 
-# Short bio (displayed in About widget)
 bio: >
-  First-year PhD candidate developing frugal AI systems for continuous and federated learning. 
-  Hackathon enthusiast and advocate for resource-efficient deep learning.
+  First-year PhD researcher researching in frugal AI systems for continual and federated learning.  
 
-# Social/Academic Networking
 profiles:
-  - icon: at-symbol  # Email
+  - icon: at-symbol
     url: 'mailto:alejandro.dopico2@udc.es'
     label: Contact Me
   - icon: brands/linkedin
@@ -51,16 +43,17 @@ profiles:
 
 # Research Interests (for SEO)
 research_interests:
-  - Federated Learning
-  - Continuous/Incremental Learning
-  - Few-Shot Learning
-  - Edge AI
   - Computer Vision
+  - Federated Learning & Edge AI
+  - Continual & Incremental Learning
+  - Few-Shot Learning
+  - Sustainable AI & Model Efficiency
+  - Efficient Deep Learning
 
 # Highlighted Projects
 projects:
   - name: CIFNet (Class-Incremental & Frugal Network)
-    description: "TFM project submitted to ECML PKDD 2024 (under review)."
+    description: "Master Thesis project submitted to ECML PKDD 2024 (under review)."
     url: https://github.com/alejandrodopico2/CIFNet
     icon: code
   - name: ArtLens - HackUDC 2024 Winning Project
@@ -68,4 +61,13 @@ projects:
     url: https://devpost.com/software/artlens
     icon: trophy
 
+publications:
+  - title: "CIFNet: Towards Frugal and Continual Class-Incremental Learning"
+    venue: "Submitted to ECML PKDD 2025"
+    url: "https://github.com/AlejandroDopico2/CIFNet"
+
+talks:
+  - title: "Federated Learning for Edge AI"
+    event: "LIDIA Group Seminar Series"
+    year: 2024
 ---
