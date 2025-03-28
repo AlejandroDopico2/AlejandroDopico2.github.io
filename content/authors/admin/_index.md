@@ -43,7 +43,7 @@ profiles:
     url: https://scholar.google.es/citations?hl=es&view_op=list_works&gmla=ANZ5fUNkhJzukjwwyGKR_SF1BykkmjHpox67ICyVPQdig23WvfCulm-q8IXVelUsEKMpNHR78XvnDLOlSS5iSfyxEjMA1VXwBg&user=zFZ6LycAAAAJ
   - icon: brands/github
     url: https://github.com/alejandrodopico2
-  - icon: orcid
+  - icon: brands/orcid
     url: https://orcid.org/0009-0005-0592-5760
   - icon: academicons/cv
     url: uploads/cv.pdf
