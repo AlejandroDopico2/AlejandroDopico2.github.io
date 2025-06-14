@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://AlejandroDopico2.github.io/sitemap.xml
+Sitemap: https://AlejandroDopico2.github.io/al-folio/sitemap.xml
