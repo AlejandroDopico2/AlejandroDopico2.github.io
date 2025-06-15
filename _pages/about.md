@@ -32,9 +32,3 @@ I’m passionate about everything related to Artificial Intelligence and Deep Le
 Previously, I earned an [MSc in Artificial Intelligence](https://mia.udc.es/) and a BSc in Computer Science. I also worked as a full-time researcher on the [PILLAR-Robots](https://pillar-robots.eu/) project, where I developed intelligent systems for autonomous agents.
 
 Right now, I’m working on my PhD thesis at LIDIA, focusing on green, frugal AI by designing learning algorithms that are both efficient and deployable in real-world settings.
-
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

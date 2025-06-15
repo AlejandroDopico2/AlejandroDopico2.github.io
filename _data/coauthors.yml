@@ -32,3 +32,15 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"fontenla-romero":
+  - firstname: ["Óscar", "O.", "Ó.", "Ó. F.", "Óscar Fontenla-Romero"]
+    url: https://pdi.udc.es/es/File/Pdi/JU29E
+
+"guijarro-berdinas":
+  - firstname: ["Bertha", "B.", "B. G.", "Bertha Guijarro-Berdiñas"]
+    url: https://es.wikipedia.org/wiki/Bertha_Guijarro
+
+"alonso-betanzos":
+  - firstname: ["Amparo", "A.", "A. A.", "Amparo Alonso-Betanzos"]
+    url: https://en.wikipedia.org/wiki/Amparo_Alonso_Betanzos
