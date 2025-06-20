@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -420,6 +420,11 @@ ninja.data = [{
           description: "HackUDC 2025 Edition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/artlens/";
+            },},{id: "projects-cifnet",
+          title: 'CIFNet',
+          description: "Making AI Learning Smarter and More Efficient",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cifnet/";
             },},{
         id: 'social-email',
         title: 'email',
