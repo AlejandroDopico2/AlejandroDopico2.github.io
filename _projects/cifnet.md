@@ -20,12 +20,13 @@ This is where **CIFNet (Class Incremental and Frugal Network)** comes in. This p
 
 The real world is constantly changing. New data keeps popping up: new animal species, new fashion trends... Just like humans learn new things without forgetting old ones, AI systems need to evolve without losing their past knowledge.
 
-Imagine if every time there was a new category of data, your AI had to **relearn *everything* from scratch**. That would be very inefficient! Think about the memory you'd need, data privacy concerns, and, most importantly, the massive computational cost and energy consumption. This is especially critical for small devices or in energy-sensitive environments.
+Imagine if every time there was a new category of data, your AI had to **relearn _everything_ from scratch**. That would be very inefficient! Think about the memory you'd need, data privacy concerns, and, most importantly, the massive computational cost and energy consumption. This is especially critical for small devices or in energy-sensitive environments.
 
 Our goal behind CIFNet was to create an adaptive and sustainable AI system that could:
-* **Efficiently** learn new categories of information.
-* Maintain its **good performance** on what it had already learned.
-* **Minimize computational overhead** and energy consumption.
+
+- **Efficiently** learn new categories of information.
+- Maintain its **good performance** on what it had already learned.
+- **Minimize computational overhead** and energy consumption.
 
 CIFNet tackles this problem head-on, finding the perfect balance between adapting AI to new information and being incredibly efficient, especially when we can leverage strong pre-trained knowledge bases.
 
@@ -35,9 +36,9 @@ CIFNet tackles this problem head-on, finding the perfect balance between adaptin
 
 CIFNet lies in combining three key components that work together for a super-efficient, **single-step learning process**:
 
-* **Frozen Pre-trained Feature Extractor (Fθ)**: Instead of re-training the entire AI "brain" (the neural network backbone) every time, CIFNet uses a powerful, already-trained feature extractor that stays fixed. This is a game-changer! It shifts the heavy lifting from expensive backbone fine-tuning to much more efficient classification based on high-quality, pre-processed data.
-* **ROLANN Classifier Layer (Gϕ)**: This is our clever classification layer. Unlike typical AI training that requires many repetitive updates over several "epochs," ROLANN learns in a **single, direct step**. It simply expands its architecture by adding new output "neurons" for each new class it learns. This drastically cuts down training time.
-* **Compressed Data Buffer (B)**: This smart buffer stores highly compact "feature representations" (like a distilled version of the original data) instead of raw images. This means a huge reduction in memory needed (e.g., 75x less memory than raw ImageNet images). It's crucial for preventing the AI from favoring the newest information by exposing it to distilled memories of past classes, ensuring everything stays balanced. To handle imbalances, we use a clever "temporal oversampling" trick.
+- **Frozen Pre-trained Feature Extractor (Fθ)**: Instead of re-training the entire AI "brain" (the neural network backbone) every time, CIFNet uses a powerful, already-trained feature extractor that stays fixed. This is a game-changer! It shifts the heavy lifting from expensive backbone fine-tuning to much more efficient classification based on high-quality, pre-processed data.
+- **ROLANN Classifier Layer (Gϕ)**: This is our clever classification layer. Unlike typical AI training that requires many repetitive updates over several "epochs," ROLANN learns in a **single, direct step**. It simply expands its architecture by adding new output "neurons" for each new class it learns. This drastically cuts down training time.
+- **Compressed Data Buffer (B)**: This smart buffer stores highly compact "feature representations" (like a distilled version of the original data) instead of raw images. This means a huge reduction in memory needed (e.g., 75x less memory than raw ImageNet images). It's crucial for preventing the AI from favoring the newest information by exposing it to distilled memories of past classes, ensuring everything stays balanced. To handle imbalances, we use a clever "temporal oversampling" trick.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -56,9 +57,9 @@ My main contribution was designing and testing this new approach to make Class-I
 
 Key technical highlights include:
 
-* **Single-Step Optimization**: This is possible thanks to the combo of the fixed AI backbone and the ROLANN classifier. It allows CIFNet to learn new classes efficiently without needing many repeated updates.
-* **Memory Efficiency**: The compressed data buffer dramatically reduces memory use, making the method scalable and perfect for devices with limited resources.
-* **Catastrophic Forgetting Mitigation**: CIFNet effectively prevents the AI from forgetting old information at the classification stage, keeping accuracy high on previously learned tasks. The expansion buffer makes sure all the new knowledge is properly integrated with the old.
+- **Single-Step Optimization**: This is possible thanks to the combo of the fixed AI backbone and the ROLANN classifier. It allows CIFNet to learn new classes efficiently without needing many repeated updates.
+- **Memory Efficiency**: The compressed data buffer dramatically reduces memory use, making the method scalable and perfect for devices with limited resources.
+- **Catastrophic Forgetting Mitigation**: CIFNet effectively prevents the AI from forgetting old information at the classification stage, keeping accuracy high on previously learned tasks. The expansion buffer makes sure all the new knowledge is properly integrated with the old.
 
 ---
 
@@ -80,13 +81,11 @@ CIFNet not only performs competitively on standard benchmarks (like CIFAR-100 an
   </div>
 </div>
 
-
-
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/projects/cifnet/sustainability_metrics.png" title="Comparative Sustainability Metrics" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-**CIFNet's Impact on Sustainability:** These graphs clearly demonstrate how CIFNet (shown in yellow) dramatically reduces training time, carbon emissions (kg CO₂-eq), and energy consumption (kWh) compared to other state-of-the-art incremental learning methods. This highlights CIFNet's role in making AI learning not just faster, but also significantly more environmentally friendly.
+CIFNet's Impact on Sustainability: These graphs clearly demonstrate how CIFNet (shown in yellow) dramatically reduces training time, carbon emissions (kg CO₂-eq), and energy consumption (kWh) compared to other state-of-the-art incremental learning methods. This highlights CIFNet's role in making AI learning not just faster, but also significantly more environmentally friendly.
 </div>

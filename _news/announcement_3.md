@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Breaking news: I finally have a personal website! :sparkles: :smile:
+Breaking news: I finally have a personal website! (:construction_worker: still under construction) :sparkles: :smile:
