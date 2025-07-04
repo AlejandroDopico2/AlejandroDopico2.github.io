@@ -30,20 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -412,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-breaking-news-i-finally-have-a-personal-website-sparkles-smile",
-          title: 'Breaking news: I finally have a personal website! :sparkles: :smile:',
+            },},{id: "news-breaking-news-i-finally-have-a-personal-website-construction-worker-still-under-construction-sparkles-smile",
+          title: 'Breaking news: I finally have a personal website! (:construction_worker: still under construction) :sparkles:...',
           description: "",
           section: "News",},{id: "projects-artlens",
           title: 'ArtLens',
@@ -425,6 +411,11 @@ ninja.data = [{
           description: "Making AI Learning Smarter and More Efficient",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cifnet/";
+            },},{id: "projects-battery-soc-estimator",
+          title: 'Battery SoC Estimator',
+          description: "Huawei TechArena 2024 – Nuremberg",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/soc/";
             },},{
         id: 'social-email',
         title: 'email',
