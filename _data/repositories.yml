@@ -5,4 +5,5 @@ repo_description_lines_max: 2
 
 github_repos:
   - AlejandroDopico2/CIFNet
+  - AlejandroDopico2/FedHENet
   # - p2pfl/p2pfl
