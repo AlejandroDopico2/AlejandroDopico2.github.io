@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: Overview of my teaching activities across undergraduate and graduate programs.
 nav: true
 nav_order: 6
