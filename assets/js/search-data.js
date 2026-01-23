@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
+          title: "teaching",
           description: "Overview of my teaching activities across undergraduate and graduate programs.",
           section: "Navigation",
           handler: () => {
@@ -44,8 +44,11 @@ ninja.data = [{
           title: 'Best Master’s Thesis Award at AEPIA’s EVIA 2025',
           description: "I was honored to receive the award for Best Master’s Thesis during AEPIA’s AI Summer School (EVIA 2025) in Gijón.",
           section: "News",handler: () => {
-              window.location.href = "/news/evia_award/";
-            },},{id: "projects-artlens",
+              window.location.href = "/news/250711_evia_award/";
+            },},{id: "news-a-paper-on-federated-learning-has-been-accepted-at-esann-2026",
+          title: 'A paper on federated learning has been accepted at ESANN 2026.',
+          description: "",
+          section: "News",},{id: "projects-artlens",
           title: 'ArtLens',
           description: "HackUDC 2025 Edition",
           section: "Projects",handler: () => {
