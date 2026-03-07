@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Download my CV (PDF) using the button above. Also available from my [GitHub profile](https://github.com/AlejandroDopico2) and [dopico.ai](https://alejandrodopico2.github.io/dopico.ai/).",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Overview of my teaching activities across undergraduate and graduate programs.",
@@ -45,7 +52,10 @@ ninja.data = [{
           description: "I was honored to receive the award for Best Master’s Thesis during AEPIA’s AI Summer School (EVIA 2025) in Gijón.",
           section: "News",handler: () => {
               window.location.href = "/news/250711_evia_award/";
-            },},{id: "news-a-paper-on-federated-learning-has-been-accepted-at-esann-2026",
+            },},{id: "news-i-am-currently-on-a-research-stay-at-inesc-tec-university-of-porto-collaborating-with-joão-gama-university-of-porto-and-pedro-henriques-abreu-university-of-coimbra-collaboration-on-deep-learning-and-continual-learning-for-resource-efficient-settings",
+          title: 'I am currently on a research stay at INESC TEC (University of Porto),...',
+          description: "I am on a research stay at INESC TEC (Porto) with João Gama and Pedro Henriques Abreu.",
+          section: "News",},{id: "news-a-paper-on-federated-learning-has-been-accepted-at-esann-2026",
           title: 'A paper on federated learning has been accepted at ESANN 2026.',
           description: "",
           section: "News",},{id: "projects-artlens",
